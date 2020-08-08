@@ -1,24 +1,27 @@
 body{
     background-color: #1E1E1E;
-    min-width: 100vh;
 }
 .container{
-    font-size: larger;
+    /* min-width: 10vh; */
+    /* font-size: larger; */
     color: #CCCCCC;
     background-color: #333333;
-    width: 40em;
-    height: 200%;
+    width: 99vw;
     border-radius: 4vh;
-    padding: 7vh;
+    padding: 0em 2em 2em 2em;
 }
 .container h1{
     width: auto;
+    /* font-size: 10rem; */
 }
-.textfield{
-    width: 80%;
+.addbar{
 }
-#add{
-    width: 18%;
+.addbar input{
+    /* padding: 90vw; */
+    width: 10vw;
+}
+.addbar button{
+    width: auto;
 }
 #vcenter{
     align-items: center;
