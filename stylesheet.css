@@ -1,0 +1,27 @@
+body{
+    background-color: #1E1E1E;
+    min-width: 100vh;
+}
+.container{
+    font-size: larger;
+    color: #CCCCCC;
+    background-color: #333333;
+    width: 40em;
+    height: 200%;
+    border-radius: 4vh;
+    padding: 7vh;
+}
+.container h1{
+    width: auto;
+}
+.textfield{
+    width: 80%;
+}
+#add{
+    width: 18%;
+}
+#vcenter{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
