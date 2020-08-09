@@ -1,19 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="stylesheet.css">
-    <title>To-do list</title>
-</head>
-<body id="vcenter">
-    
-    <div class="container">
-        <h1 id="vcenter">To-do list</h1>
-        <div class="addbar" id="vcenter">
-            <input class="textfield" type="text">
-            <button>Add</button>
-        </div>
+  <head>
+    <link href="stylesheet.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors</title>
+  </head>
+  <body>
+    <header>
+      <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="score-board">
+      <div id="user-label" class="badge">user</div>
+      <div id="computer-label" class="badge">comp</div>
+      <span id="user-score">0</span>:<span id="computer-score">0</span>
+      <div class="result">
+        <p>Paper covers rock. You win!</p>
+      </div>
     </div>
-</body>
+    <div class="choices">
+      <div class="choice" id="r">
+        <img src="images/rock.png" />
+      </div>
+      <div class="choice" id="p">
+        <img src="images/paper.png" />
+      </div>
+      <div class="choice" id="s">
+        <img src="images/scissors.png" />
+      </div>
+    </div>
+    <p id="action-message">Make your move</p>
+  </body>
 </html>
